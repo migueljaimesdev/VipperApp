@@ -29,6 +29,9 @@
 		CAC73BA22507BD4700E1B8FB /* TripListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC73BA12507BD4700E1B8FB /* TripListInteractor.swift */; };
 		CAC73BA42507BE2000E1B8FB /* TripListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC73BA32507BE2000E1B8FB /* TripListPresenter.swift */; };
 		CAC73BA82507C2CF00E1B8FB /* TripListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC73BA72507C2CF00E1B8FB /* TripListView.swift */; };
+		CACD64B42509312A00FA2863 /* TripDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD64B32509312A00FA2863 /* TripDetailPresenter.swift */; };
+		CACD64B62509314B00FA2863 /* TripDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD64B52509314B00FA2863 /* TripDetailInteractor.swift */; };
+		CACD64B82509316100FA2863 /* TripDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD64B72509316100FA2863 /* TripDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		CAC73BA12507BD4700E1B8FB /* TripListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListInteractor.swift; sourceTree = "<group>"; };
 		CAC73BA32507BE2000E1B8FB /* TripListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListPresenter.swift; sourceTree = "<group>"; };
 		CAC73BA72507C2CF00E1B8FB /* TripListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripListView.swift; sourceTree = "<group>"; };
+		CACD64B32509312A00FA2863 /* TripDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailPresenter.swift; sourceTree = "<group>"; };
+		CACD64B52509314B00FA2863 /* TripDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailInteractor.swift; sourceTree = "<group>"; };
+		CACD64B72509316100FA2863 /* TripDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +139,7 @@
 				18D775C022AD944300AE281E /* AppDelegate.swift */,
 				18D775C222AD944300AE281E /* SceneDelegate.swift */,
 				18D775C422AD944300AE281E /* ContentView.swift */,
+				CACD64B22509310900FA2863 /* TripDetailModule */,
 				CAC73BA92507C68600E1B8FB /* TripListModule */,
 				0A8BE47C23ECC55F00C24F52 /* Functional Views */,
 				0A8BE47D23ECC56F00C24F52 /* Entities */,
@@ -163,6 +170,16 @@
 				CAC73BA12507BD4700E1B8FB /* TripListInteractor.swift */,
 			);
 			path = TripListModule;
+			sourceTree = "<group>";
+		};
+		CACD64B22509310900FA2863 /* TripDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				CACD64B32509312A00FA2863 /* TripDetailPresenter.swift */,
+				CACD64B52509314B00FA2863 /* TripDetailInteractor.swift */,
+				CACD64B72509316100FA2863 /* TripDetailView.swift */,
+			);
+			path = TripDetailModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,16 +256,19 @@
 			files = (
 				0A78DB8E23E799E400934DD4 /* SplitImage.swift in Sources */,
 				0A624E0123E7A44D00212508 /* ImageDataProvider.swift in Sources */,
+				CACD64B62509314B00FA2863 /* TripDetailInteractor.swift in Sources */,
 				0A83577A23D6996200D83533 /* DataModel.swift in Sources */,
 				0A20EFAF240EA73A00A0CA27 /* WaypointViewInteractor.swift in Sources */,
 				0A20EFAD240EA73A00A0CA27 /* WaypointViewPresenter.swift in Sources */,
 				18D775C122AD944300AE281E /* AppDelegate.swift in Sources */,
 				0A20EFAE240EA73A00A0CA27 /* WaypointView.swift in Sources */,
 				0A83577623D697A300D83533 /* MapView.swift in Sources */,
+				CACD64B42509312A00FA2863 /* TripDetailPresenter.swift in Sources */,
 				0A20EFA2240EA70900A0CA27 /* TripListCell.swift in Sources */,
 				0A83577B23D6996200D83533 /* Persistence.swift in Sources */,
 				CAC73BA42507BE2000E1B8FB /* TripListPresenter.swift in Sources */,
 				0A46782923D7AE980073803D /* Waypoint.swift in Sources */,
+				CACD64B82509316100FA2863 /* TripDetailView.swift in Sources */,
 				18D775C322AD944300AE281E /* SceneDelegate.swift in Sources */,
 				0A83577C23D6996200D83533 /* Trip.swift in Sources */,
 				0A80218C23DF478B00166C86 /* MapDataProvider.swift in Sources */,
